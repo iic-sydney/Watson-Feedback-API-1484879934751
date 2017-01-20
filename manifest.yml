@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Watson-Feedback-API
+  host: Watson-Feedback-API
+  disk_quota: 1024M
+  services:
+  - Watson-Feedback-API-cloudantNoSQLDB
+  - availability-monitoring-auto
